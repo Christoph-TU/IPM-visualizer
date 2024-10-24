@@ -1,0 +1,13 @@
+.compie-container {
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.compie-element {
+    width: 45%;
+    text-align: center;
+}

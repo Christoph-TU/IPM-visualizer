@@ -1,0 +1,15 @@
+.global-drawer {
+	width: 360px;
+	flex-shrink: 0;
+}
+
+.global-drawer-paper {
+	width: 360px;
+}
+
+.global-content {
+	width: calc(100% - 360px);
+	height: 100%;
+	flex-grow: 1;
+	overflow: auto;
+}

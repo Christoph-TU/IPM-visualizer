@@ -1,0 +1,33 @@
+.metadata-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.metadata-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.metadata-table tr {
+    border-bottom: 1px solid #eee;
+}
+
+.metadata-table tr td:first-child {
+    font-weight: bold;
+    padding: 10px;
+    width: 120px;
+    color: #666;
+    background-color: #f9f9f9;
+}
+
+.metadata-table tr td:nth-child(2) {
+    padding: 10px;
+    color: #333;
+    max-width: 100%;
+}
+
+.metadata-value {
+    background-color: transparent;
+    font-size: 14px;
+}
